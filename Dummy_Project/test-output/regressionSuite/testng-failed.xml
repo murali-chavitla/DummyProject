@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="dummy_package.Dummy_Test">
+        <methods>
+          <include name="close"/>
+          <include name="browserSetup"/>
+          <include name="logout"/>
+          <include name="removeProduct"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- dummy_package.Dummy_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

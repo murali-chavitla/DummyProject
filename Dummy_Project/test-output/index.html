@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-regressionSuite" class="navigator-link">
-              <span class="suite-name border-passed">regressionSuite</span>
+            <a href="#" panel-name="suite-RegressionSuite" class="navigator-link">
+              <span class="suite-name border-skipped">RegressionSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-regressionSuite" class="navigator-link ">
-                    <span>C:\Users\murali\eclipse-workspace\murali\Dummy_Project\regressionTest.xml</span>
+                  <a href="#" panel-name="test-xml-RegressionSuite" class="navigator-link ">
+                    <span>C:\Users\murali\git\repository_dummy\Dummy_Project\RegressionTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-regressionSuite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-RegressionSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-regressionSuite" class="navigator-link ">
+                  <a href="#" panel-name="group-RegressionSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-regressionSuite" class="navigator-link ">
+                  <a href="#" panel-name="times-RegressionSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-regressionSuite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-RegressionSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-regressionSuite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-RegressionSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-regressionSuite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-RegressionSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods skipped suite-RegressionSuite"> (hide)</a> <!-- hide-methods skipped suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods skipped suite-RegressionSuite"> (show)</a> <!-- show-methods skipped suite-RegressionSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-RegressionSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite" title="dummy_package.Dummy_Test" class="method navigator-link" hash-for-method="removeProduct">removeProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-RegressionSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-regressionSuite" class="hide-methods passed suite-regressionSuite"> (hide)</a> <!-- hide-methods passed suite-regressionSuite -->
-                      <a href="#" panel-name="suite-regressionSuite" class="show-methods passed suite-regressionSuite"> (show)</a> <!-- show-methods passed suite-regressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="hide-methods passed suite-RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite -->
+                      <a href="#" panel-name="suite-RegressionSuite" class="show-methods passed suite-RegressionSuite"> (show)</a> <!-- show-methods passed suite-RegressionSuite -->
                     </span>
-                    <div class="method-list-content passed suite-regressionSuite">
+                    <div class="method-list-content passed suite-RegressionSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-regressionSuite" title="dummy_project.DummyTest" class="method navigator-link" hash-for-method="dummyTest">dummyTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionSuite" title="dummy_package.Dummy_Test" class="method navigator-link" hash-for-method="addProduct">addProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-regressionSuite -->
+                    </div> <!-- method-list-content passed suite-RegressionSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,44 +131,85 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-regressionSuite" class="panel regressionSuite">
-          <div class="suite-regressionSuite-class-passed">
+        <div panel-name="suite-RegressionSuite" class="panel RegressionSuite">
+          <div class="suite-RegressionSuite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">dummy_project.DummyTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">dummy_package.Dummy_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="dummyTest">
-                  </a> <!-- dummyTest -->
-                  <span class="method-name">dummyTest</span>
+                  <a name="removeProduct">
+                  </a> <!-- removeProduct -->
+                  <span class="method-name">removeProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=136.0.7103.93)
+Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d445dfa3c7b423bfa9ef3c6da8a91130, clickElement {id=f.82BBA2E10BF429FC6A8B91D76F2F84CD.d.36DE28F3ECA0D70C32265FF219129E67.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\murali\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62866/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d445dfa3c7b423bfa9ef3c6da8a91130)] -&gt; xpath: //a[@id=&apos;logout_sidebar_link&apos;]]
+Session ID: d445dfa3c7b423bfa9ef3c6da8a91130
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at dummy_package.Dummy_Test.logout(Dummy_Test.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-regressionSuite-class-passed -->
-        </div> <!-- panel regressionSuite -->
-        <div panel-name="test-xml-regressionSuite" class="panel">
+          </div> <!-- suite-RegressionSuite-class-skipped -->
+          <div class="suite-RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dummy_package.Dummy_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProduct">
+                  </a> <!-- addProduct -->
+                  <span class="method-name">addProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite-class-passed -->
+        </div> <!-- panel RegressionSuite -->
+        <div panel-name="test-xml-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\murali\eclipse-workspace\murali\Dummy_Project\regressionTest.xml</span>
+            <span class="header-content">C:\Users\murali\git\repository_dummy\Dummy_Project\RegressionTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;regressionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;RegressionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;dummy_project.DummyTest&quot;/&gt;
+      &lt;class name=&quot;dummy_package.Dummy_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-&lt;/suite&gt; &lt;!-- regressionSuite --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-regressionSuite" class="panel">
+        <div panel-name="testlist-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for regressionSuite</span>
+            <span class="header-content">Tests for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
@@ -164,73 +219,99 @@
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-regressionSuite" class="panel">
+        <div panel-name="group-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for regressionSuite</span>
+            <span class="header-content">Groups for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-regressionSuite" class="panel">
+        <div panel-name="times-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for regressionSuite</span>
+            <span class="header-content">Times for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_regressionSuite');
-function tableData_regressionSuite() {
+suiteTableInitFunctions.push('tableData_RegressionSuite');
+function tableData_RegressionSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'dummyTest')
-data.setCell(0, 2, 'dummy_project.DummyTest')
-data.setCell(0, 3, 25);
-window.suiteTableData['regressionSuite']= { tableData: data, tableDiv: 'times-div-regressionSuite'}
+data.setCell(0, 1, 'addProduct')
+data.setCell(0, 2, 'dummy_package.Dummy_Test')
+data.setCell(0, 3, 2247);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'removeProduct')
+data.setCell(1, 2, 'dummy_package.Dummy_Test')
+data.setCell(1, 3, 3);
+window.suiteTableData['RegressionSuite']= { tableData: data, tableDiv: 'times-div-RegressionSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 ms</span>
-              <div id="times-div-regressionSuite">
-              </div> <!-- times-div-regressionSuite -->
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-RegressionSuite">
+              </div> <!-- times-div-RegressionSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-regressionSuite" class="panel">
+        <div panel-name="reporter-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for regressionSuite</span>
+            <span class="header-content">Reporter output for RegressionSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">dummyTest</span>
+              <span class="reporter-method-name">addProduct</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Dummy Test is executed</span>
+                <span class="reporter-method-output">step 4 : product added to cart sucessfully...</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-regressionSuite" class="panel">
+        <div panel-name="ignored-methods-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-regressionSuite" class="panel">
+        <div panel-name="chronological-RegressionSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">dummy_project.DummyTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">dummyTest</span>
+              <div class="chronological-class-name">dummy_package.Dummy_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">1452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProduct</span>
+                <span class="method-start">6182 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logout</span>
+                <span class="method-start">8440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">10703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">10765 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
