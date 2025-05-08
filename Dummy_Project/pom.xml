@@ -26,7 +26,7 @@
 <version>3.5.3</version>
 <configuration>
 <suiteXmlFiles>
-<suiteXmlFile>regressionTest.xml</suiteXmlFile>
+<suiteXmlFile>RegressionTest.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
 </plugin>
