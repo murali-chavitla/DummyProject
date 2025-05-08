@@ -33,6 +33,8 @@ WebDriver driver=new ChromeDriver();
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		Reporter.log("step3 : Login sucessfully...", true);
 		
+		Thread.sleep(6000);
+		
 		
 	}
 	
